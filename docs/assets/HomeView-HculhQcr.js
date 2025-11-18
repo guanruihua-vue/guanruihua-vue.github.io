@@ -1,0 +1,1 @@
+import{d as a,c as o,a as n,b as s,w as l,E as r,F as m,o as u,e as d}from"./index-D1EVcfwB.js";const i=a({__name:"HomeView",setup(p){return(_,e)=>{const t=r;return u(),o(m,null,[e[1]||(e[1]=n("div",null,"home",-1)),s(t,null,{default:l(()=>[...e[0]||(e[0]=[d("aaa",-1)])]),_:1})],64)}}});export{i as default};
