@@ -1,9 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+  <div class="study-tailwindcss">tailwindcss</div>
 </template>
-
-<style scoped>
-
-</style>
