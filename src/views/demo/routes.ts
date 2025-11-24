@@ -1,8 +1,11 @@
-export default [
-  {
-    path: '/study-tailwindcss',
-    name: 'study-tailwindcss',
-    title: 'Study Tailwindcss',
-    component: () => import('./study-tailwindcss/index.vue'),
-  },
-]
+export default {
+  path: 'demo',
+  name: 'Demo',
+  children: [
+    {
+      path: '/study-tailwindcss',
+      name: 'Study Tailwindcss',
+      component: () => import('./study-tailwindcss/index.vue'),
+    },
+  ],
+}
